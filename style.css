@@ -1,7 +1,4 @@
-header{
-  background-color: red;
-  text-align: center;
-}
+
 main{
   background-color: rgb(255, 255,0);
   
@@ -9,4 +6,7 @@ main{
 footer{
   background-color: pink;
   text-align: center;
+}
+ol{
+  text-align: left;
 }

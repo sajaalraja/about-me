@@ -1,4 +1,4 @@
-"use strict"
+/*"use strict"
 alert("welcome");
 let nameq=prompt('do you name owner the website ?').toLowerCase();
 switch(nameq){
@@ -56,8 +56,28 @@ switch(job){
   console.log("no problem");
   break;
 }
-alert ( 'thankyou  for  answering question'   );
+*/alert ( 'thankyou  for  answering question'   );
 
 
+// the lab3
 
+let names = ['saja', 'esraa', 'afnan', 'ahlam'];
+let userAnswer = prompt('what is names of the owners website?');
+let flag = false;
+for (let i = 0; i < names.length; i++) {
+    if (userAnswer === names[i]) {
+        console.log("yes right");
+        flag = true;
+        break;
+    }
+}
+if (flag === false) {
+    console.log("sorry ");
+   
+     
+    
+    
+
+  }
+  
 
