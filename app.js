@@ -1,17 +1,22 @@
-/*"use strict"
+"use strict"
 alert("welcome");
-let nameq=prompt('do you name owner the website ?').toLowerCase();
-switch(nameq){
-  case 'yes':
-  alert("the answer is saja");
-  console.log("saja");
-  break;
-  default:
-  alert("ok no problem ");
-  console.log("no problem ");
-  break;
-
+function name()
+{
+    let nameq=prompt('do you name owner the website ?').toLowerCase();
+      switch(nameq){
+         case 'yes':
+         alert("the answer is saja");
+         console.log("saja");
+         break;
+      default:
+        alert("ok no problem ");
+        console.log("no problem ");
+        break;
+      }
 }
+name();
+function age()
+{
 let myage=prompt('do you  age owner the website ?').toLowerCase();
 switch(myage){
   case 'yes':
@@ -23,6 +28,11 @@ switch(myage){
   console.log("no problem ");
   break;
 }
+}
+age();
+function maj()
+{
+
 let major=prompt('do you   major study in the unieversity  owner the website ?').toLowerCase();
 switch(major){
   case  'yes':
@@ -34,6 +44,10 @@ switch(major){
   console.log("no problem ");
   break;
 }
+}
+maj() ;
+function year1(){
+
 let year =prompt('do you know when  graduated from unieversity  owner the website ?')
 switch(year){
   case  'yes':
@@ -45,6 +59,10 @@ switch(year){
   console.log("no problem ");
   break;
 }
+}
+year1() ;
+function job1()
+{
 let job  =prompt('do you know   job  before year worked  owner the website ?').toLowerCase();
 switch(job){
   case  'yes' :
@@ -56,7 +74,9 @@ switch(job){
   console.log("no problem");
   break;
 }
-*/alert ( 'thankyou  for  answering question'   );
+}
+job1();
+ alert ( 'thankyou  for  answering question'   );
 
 
 // the lab3
