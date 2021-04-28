@@ -1,5 +1,6 @@
 "use strict"
 alert("welcome");
+let score=0;
 function name()
 {
     let nameq=prompt('do you name owner the website ?').toLowerCase();
@@ -26,6 +27,7 @@ switch(myage){
   default:
   alert("ok no problem");
   console.log("no problem ");
+  score++;
   break;
 }
 }
@@ -42,6 +44,7 @@ switch(major){
   default:
   alert("ok no problem ");
   console.log("no problem ");
+  score++;
   break;
 }
 }
@@ -57,6 +60,7 @@ switch(year){
   default:
   alert("ok no problem ");
   console.log("no problem ");
+  score++;
   break;
 }
 }
@@ -72,32 +76,59 @@ switch(job){
   default:
   alert("ok no problem");
   console.log("no problem");
+  score++;
   break;
 }
 }
 job1();
- alert ( 'thankyou  for  answering question'   );
+ 
 
 
-// the lab3
 
-let names = ['saja', 'esraa', 'afnan', 'ahlam'];
-let userAnswer = prompt('what is names of the owners website?');
+function numselect(){
+let numberselect = 3;
+ let attemptnumber = Number(prompt('how many times do you want guess'));
+ for (let attempt = 1; attempt <= attemptnumber; attempt++) {
+     let number = parseInt(prompt('can you guess my number  please '));
+     if (number === numberselect) {
+         alert('right answer');
+         break;
+     } else if (number > numberselect) {
+         alert('too high');
+     } else if (number < numberselect) {
+         alert('too low');
+         score++;
+     }
+ }
+} numselect();
+ alert('the right answer is 3'); 
+
+
+function country()
+{
+let namecountries =  ['jordan', 'syria', 'lebanon', 'kuwait'];
 let flag = false;
-for (let i = 0; i < names.length; i++) {
-    if (userAnswer === names[i]) {
-        console.log("yes right");
-        flag = true;
+for (let attempt = 1; attempt <= 6; attempt++) {
+    let userAnswer = prompt('what is my best name countries?');
+    for (let i = 0; i < namecountries.length; i++) {
+        if (userAnswer === namecountries[i]) {
+            alert('right');
+           score++;
+            flag = true;
+            break;
+        }
+    }
+    if (flag === true) {
         break;
     }
 }
-if (flag === false) {
-    console.log("sorry ");
-   
+
+} country();
+alert(' your score is ', score);
      
     
     
 
-  }
+ 
   
 
