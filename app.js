@@ -1,4 +1,4 @@
-/*"use strict"
+"use strict"
 /*alert("welcome");
 let score=0;
 function name()
@@ -86,7 +86,7 @@ job1();
 
 
 
-/*function numselect(){
+function numselect(){
 let numberselect = 3;
  let attemptnumber = Number(prompt('how many times do you want guess'));
  for (let attempt = 1; attempt <= attemptnumber; attempt++) {
@@ -127,9 +127,4 @@ for (let attempt = 1; attempt <= 6; attempt++) {
 } country();
 alert(' your score is ', score);
      
-    
-    
-
- 
-  
-*/
+   */ 
