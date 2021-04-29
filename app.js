@@ -1,5 +1,5 @@
-"use strict"
-alert("welcome");
+/*"use strict"
+/*alert("welcome");
 let score=0;
 function name()
 {
@@ -81,11 +81,12 @@ switch(job){
 }
 }
 job1();
+
  
 
 
 
-function numselect(){
+/*function numselect(){
 let numberselect = 3;
  let attemptnumber = Number(prompt('how many times do you want guess'));
  for (let attempt = 1; attempt <= attemptnumber; attempt++) {
@@ -131,4 +132,4 @@ alert(' your score is ', score);
 
  
   
-
+*/
