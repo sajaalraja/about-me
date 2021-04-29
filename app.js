@@ -65,6 +65,7 @@ switch(year){
 }
 }
 year1() ;
+
 function job1()
 {
 let job  =prompt('do you know   job  before year worked  owner the website ?').toLowerCase();
