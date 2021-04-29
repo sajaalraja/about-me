@@ -1,5 +1,5 @@
 "use strict"
-/*alert("welcome");
+alert("welcome");
 let score=0;
 function name()
 {
@@ -128,4 +128,4 @@ for (let attempt = 1; attempt <= 6; attempt++) {
 } country();
 alert(' your score is ', score);
      
-   */ 
+  
