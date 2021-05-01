@@ -1,5 +1,6 @@
 "use strict"
-alert("welcome");
+let user=prompt('please enter your name ?')
+alert("welcome"   + user);
 let score=0;
 function name()
 {
@@ -73,11 +74,14 @@ switch(job){
   case  'yes' :
     alert("the answer is teacher");
   console.log("tachert");
+  alert(" thank you for answering question "     +    user)
   break;
   default:
   alert("ok no problem");
   console.log("no problem");
   score++;
+  
+  alert("thank you for answering question"    +   user )
   break;
 }
 }
@@ -87,7 +91,7 @@ job1();
 
 
 
-function numselect(){
+/*function numselect(){
 let numberselect = 3;
  let attemptnumber = Number(prompt('how many times do you want guess'));
  for (let attempt = 1; attempt <= attemptnumber; attempt++) {
@@ -128,4 +132,4 @@ for (let attempt = 1; attempt <= 6; attempt++) {
 } country();
 alert(' your score is ', score);
      
-  
+  */
