@@ -21,7 +21,7 @@ h1{
   float:left;
 }
 
-#color
+#education
 {
   background-color: red;
   width:500px;
@@ -49,7 +49,7 @@ h1{
   bottom: 10px;
 }
 
-#country{
+#topten{
   background-color: green;
   width: 500px;
   height: 500px;
